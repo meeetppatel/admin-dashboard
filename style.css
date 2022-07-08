@@ -85,5 +85,44 @@ a {
 .right {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
+}
+
+.trending,
+.announcements {
+    padding: 20px;
+}
+
+.card,
+.announcements-container, .project-card{
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.ann,
+.trend,.project-card {
+    padding: 15px;
+}
+
+.trend {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.main-container {
+    padding: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 30px;
+    padding-bottom: 2rem;
 }
