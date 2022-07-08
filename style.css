@@ -5,13 +5,38 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-
-
-
 ul{
     list-style: none;
 }
 a{
     text-decoration: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+    'sidebar header'
+    'sidebar maincontainer';
+}
+
+.header{
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+}
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.sidebar{
+    grid-area: sidebar;
+    
+}
+.maincontainer{
+    grid-area: maincontainer;
 }
