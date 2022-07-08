@@ -1,42 +1,89 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-ul{
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-.container{
+.container {
     display: grid;
     grid-template-columns: 300px 1fr;
     grid-template-rows: auto 1fr;
     grid-template-areas:
-    'sidebar header'
-    'sidebar maincontainer';
+        'sidebar header'
+        'sidebar maincontainer';
 }
 
-.header{
+.header {
     grid-area: header;
     display: flex;
     flex-direction: column;
 }
-.header-top{
+
+.header-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-
-.sidebar{
-    grid-area: sidebar;
-    
+.pfp {
+    background-image: url("https://avatars.githubusercontent.com/u/74893295?v=4");
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    border-radius: 50%;
 }
-.maincontainer{
+
+
+
+/* Sidebar */
+.sidebar {
+    grid-area: sidebar;
+    background-color: rgb(36, 111, 146);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 40px;
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.links {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-content ul,
+.nav-support ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Main-container */
+.main-container {
     grid-area: maincontainer;
+    background-color: rgb(206, 206, 206);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
