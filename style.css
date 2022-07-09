@@ -74,6 +74,10 @@ a {
     align-items: center;
     gap: 20px;
 }
+.search span {
+    font-size:1.7rem;
+    font-weight: bold;
+}
 
 #search {
     height: 30px;
