@@ -198,3 +198,37 @@ a {
 .project-card {
     border-left: 15px solid rgb(255, 205, 43);
 }
+
+.announcements-title,.trending-title{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.pfp-1{
+    background-image: url("https://avatars.githubusercontent.com/u/63571653?v=4");
+    height: 40px;
+    width:40px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.pfp-2{
+    background-image: url("https://avatars.githubusercontent.com/u/91777312?v=4");
+    height: 40px;
+    width:40px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.pfp-3{
+    background-image: url("https://avatars.githubusercontent.com/u/74283604?v=4");
+    height: 40px;
+    width:40px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.pfp-4{
+    background-image: url("https://avatars.githubusercontent.com/u/86741130?v=4");
+    height: 40px;
+    width:40px;
+    background-size: cover;
+    border-radius: 50%;
+}
