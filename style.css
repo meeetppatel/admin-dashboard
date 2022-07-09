@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -57,11 +58,13 @@ a {
     background-size: cover;
     border-radius: 50%;
 }
-#pfp2{
+
+#pfp2 {
     height: 65px;
     width: 65px;
 }
-.acc-txt{
+
+.acc-txt {
     font-size: 25px;
 }
 
@@ -199,36 +202,56 @@ a {
     border-left: 15px solid rgb(255, 205, 43);
 }
 
-.announcements-title,.trending-title{
+.actions {
+    margin-top: auto;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 95px;
+    right: 18px;
+    gap: 1.5rem;
+}
+
+.actions span {
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+.announcements-title,
+.trending-title {
     padding-bottom: 10px;
     padding-left: 10px;
 }
 
-.pfp-1{
+.pfp-1 {
     background-image: url("https://avatars.githubusercontent.com/u/63571653?v=4");
     height: 40px;
-    width:40px;
+    width: 40px;
     background-size: cover;
     border-radius: 50%;
 }
-.pfp-2{
+
+.pfp-2 {
     background-image: url("https://avatars.githubusercontent.com/u/91777312?v=4");
     height: 40px;
-    width:40px;
+    width: 40px;
     background-size: cover;
     border-radius: 50%;
 }
-.pfp-3{
+
+.pfp-3 {
     background-image: url("https://avatars.githubusercontent.com/u/74283604?v=4");
     height: 40px;
-    width:40px;
+    width: 40px;
     background-size: cover;
     border-radius: 50%;
 }
-.pfp-4{
+
+.pfp-4 {
     background-image: url("https://avatars.githubusercontent.com/u/86741130?v=4");
     height: 40px;
-    width:40px;
+    width: 40px;
     background-size: cover;
     border-radius: 50%;
 }
